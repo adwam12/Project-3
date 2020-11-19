@@ -396,7 +396,7 @@ const singlePub = (props) => {
         </div>
         <div className="comments-section">
           <article className="media">
-            {(!token && singlePub.comments.length === 0) && <div style={{ margin: 'auto' }} className="no-comments">No Comments</div>}
+            {((!token || !isVerified(user)) && singlePub.comments.length === 0) && <div style={{ margin: 'auto' }} className="no-comments">No Comments</div>}
             {(token && isVerified(user)) && <div className="media-content">
 
               <div className="field">
