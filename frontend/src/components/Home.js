@@ -157,7 +157,7 @@ const Home = () => {
             {filterText ? <div>
               {filterUsers().map((user, index) => {
                 return <div key={index} className="tile is-child notification is-dark" style={{ display: 'flex', justifyContent: "center", alignitems: "center", border: '5px solid white', backgroundColor: "rgba(0,0,0,0.5)", margin: '5px' }}>
-                  <h3>{user.username}</h3>
+                  <h3 className='pr-2'>{user.username}</h3>
                   <Link className='is-button' to={`/users/${user._id}`}>View Profile</Link>
                 </div>
               })}

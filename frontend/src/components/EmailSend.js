@@ -72,10 +72,13 @@ const EmailSend = (props) => {
       right: 'auto',
       bottom: 'auto',
       marginRight: '-50%',
-      transform: 'translate(-50%, -50%)'
+      transform: 'translate(-50%, -50%)',
+      ['text-align']: 'center',
+      ['font-size']: '22px'
     },
     overlay: {
-      zIndex: 1000
+      zIndex: 1000,
+      background: 'rgba(0, 0, 0, 0.5)'
     }
   }
 
@@ -97,7 +100,7 @@ const EmailSend = (props) => {
     <Modal isOpen={verModalIsOpen} style={customStyles} contentLabel="Ver Modal">
       <p>Note sent to all subscribers!</p>
       <div className="modal-buttons">
-        <Link to={`/pubs/${singlePub._id}`}><button>ok</button></Link>
+        <Link to={`/pubs/${singlePub._id}`} style={{ border: '3px solid white', margin: '20px', minWidth: '100px' }}><button>ok</button></Link>
       </div>
     </Modal>
 

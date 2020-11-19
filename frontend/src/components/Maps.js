@@ -200,7 +200,7 @@ const DisplayMap = (props) => {
 
         }}>Clear Filter</button>
     </section>
-    <h1 className='range-Indicator' style={{ color: 'gray', fontWeight: '700' }}>Current Range: {radius} KM</h1>
+    <h1 className='range-Indicator' style={{ color: 'rgba(255,255,255,0.8)', fontWeight: '800' }}>Current Range: {radius} KM</h1>
 
 
 

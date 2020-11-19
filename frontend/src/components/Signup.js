@@ -163,7 +163,6 @@ const Signup = (props) => {
         <div className='columns is-centered is-vcentered'>
           <div className="LeftForm">
             <form onSubmit={handleSubmit} className='is-centered'>
-              <h1>Create account</h1>
               {inputFields.map((field, index) => {
                 return <div className='field' key={index}>
                   <label>{field}</label>

@@ -45,7 +45,6 @@ const PubList = () => {
     axios.get(url)
       .then(axiosResp => {
         setSearchResult(axiosResp.data.results[0].geometry)
-        // console.log(axiosResp.data.results[0].geometry)
       })
 
   }, [zipCode])
@@ -57,8 +56,6 @@ const PubList = () => {
 
   function DistanceCall(publist) {
     publist.forEach((pub) => {
-      // console.log('test', distArray)
-      // console.log((measure(searchResult[0], searchResult[1], pub.coordinates.latitude, pub.coordinates.longitude)))
       return distArray.push((measure(searchResult[0], searchResult[1], pub.coordinates.latitude, pub.coordinates.longitude)))
 
 
@@ -87,15 +84,6 @@ const PubList = () => {
   // console.log(searchResult[0], searchResult[1] ,pub.coordinates.latitude,pub.coordinates.longitude )
   // return 
 
-
-
-  // useEffect(() => {
-  //   axios.get('/api/pub')
-  //     .then(axiosResp => {
-  //       getPubList(axiosResp.data)
-  //       setFilteredPubList(axiosResp.data)
-  //     })
-  // }, [])
 
 
   function checkForImage(pub) {
@@ -223,10 +211,10 @@ const PubList = () => {
 
             }}></input>
             <div style={{ display: "flex", flexDirection: "row", justifyContent: 'center' }}>
-              <button className="button" onClick={() => {
+              <button className="button" style={{marginRight: "2.5px"}}  onClick={() => {
                 filterPubByDistance(pubsList)
               }}>Search</button>
-              <button className="button" onClick={() => {
+              <button className="button"  style={{marginLeft: "2.5px"}} onClick={() => {
                 shouldReset(true)
 
               }}>Clear Filter</button>

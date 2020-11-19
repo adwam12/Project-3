@@ -392,7 +392,7 @@ const singlePub = (props) => {
       </div>
       <div className="single-right-side">
         <div className="sub-button">
-          {!subscribed && user[0] ? <button className="button is-black" style={{ border: '3px solid white' }} onClick={subscribe} >Subscribe</button> : null}
+          {!subscribed && isVerified(user) ? <button className="button is-black" style={{ border: '3px solid white' }} onClick={subscribe} >Subscribe</button> : null}
         </div>
         <div className="comments-section">
           <article className="media">
