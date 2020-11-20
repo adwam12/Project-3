@@ -3,9 +3,7 @@ const pubs = require('./models/pubs')
 const users = require('./models/users')
 const axios = require('axios')
 const { dbURI } = require('./config/environment')
-const { dotenv } = require('dotenv')
-
-dotenv.config();
+require('dotenv').config()
 
 mongoose.connect(
   dbURI, {
