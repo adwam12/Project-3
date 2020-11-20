@@ -83,7 +83,7 @@ const Home = () => {
   }
   console.log(userStatus)
   function statusCheck() {
-
+  console.log(process.env)
     if (userStatus === 'false' ){
       return <div>
                         <Link to={`/users/${getUserId()}`}>
