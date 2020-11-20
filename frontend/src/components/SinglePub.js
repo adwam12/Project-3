@@ -377,7 +377,7 @@ const singlePub = (props) => {
             ref={mapRef}
             {...viewport}
             mapStyle='mapbox://styles/adwam12/ckhewfl88137g19rzckkwjfv0'
-            mapboxApiAccessToken={process.env.mapbox_key}
+            mapboxApiAccessToken={process.env.MAPBOX_KEY}
             onViewportChange={handleViewportChange}
           >
             <Marker

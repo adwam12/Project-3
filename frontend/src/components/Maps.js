@@ -215,7 +215,7 @@ const DisplayMap = (props) => {
         {...viewport}
         mapStyle='mapbox://styles/adwam12/ckhor6e5u23eb19qqkqd514rt'
 
-        mapboxApiAccessToken={process.env.mapbox_key}
+        mapboxApiAccessToken={process.env.MAPBOX_KEY}
         onViewportChange={handleViewportChange}
       >
 
@@ -338,7 +338,7 @@ const DisplayMap = (props) => {
 
           }
           onViewportChange={handleGeocoderViewportChange}
-          mapboxApiAccessToken={process.env.mapbox_key}
+          mapboxApiAccessToken={process.env.MAPBOX_KEY}
         />
 
 
