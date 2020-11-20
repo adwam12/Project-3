@@ -2,9 +2,13 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const DotEnv = require('dotenv-webpack')
+const env = process.env.NODE_ENV === 'production' ? (
+  new webpack.EnvironmentPlugin({ ...process.env })
+) : (
+  new DotEnv()
+)
+module.exports = () => {
 
-module.exports = env => {
-  console.log("ENV:", env)
   return {
     entry: './frontend/src/index.js',
     output: {
@@ -42,7 +46,8 @@ module.exports = env => {
         template: 'frontend/src/index.html',
         filename: 'index.html',
         inject: 'body'
-      })
+      }),
+      env
     ]
   }
 }
