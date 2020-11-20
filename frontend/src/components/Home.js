@@ -130,7 +130,7 @@ const Home = () => {
           <div className="tile is-parent">
             <article className="tile is-child notification" style={{ border: '10px solid white', backgroundColor: 'rgba(0,0,0,0.5)' }}>
               <Link to={`/pubs/maps`} style={{color: 'white'}}>
-              <p style={{ display: "flex", alignSelf: 'center', fontSize: '50px', fontWeight: '900', color: 'white' }}>Map</p>
+              <p style={{ display: "flex", alignSelf: 'center', fontSize: '50px', fontWeight: '900', color: 'white' }}>Map:</p>
               </Link>
               <ReactMapGL
                 ref={mapRef}
