@@ -3,14 +3,16 @@ const pubs = require('./models/pubs')
 const users = require('./models/users')
 const axios = require('axios')
 const { dbURI } = require('./config/environment')
+const { dotenv } = require('dotenv')
 
+dotenv.config();
 
 mongoose.connect(
   dbURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true
-  },
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true
+},
   (err) => {
     if (err) return console.log(err)
     console.log('Mongoose connected!')
