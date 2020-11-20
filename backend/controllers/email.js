@@ -15,11 +15,11 @@ function sendVer(req, res) {
       })
 
       const msg = {
-        from: 'FindaPint <lee@leejburgess.co.uk>',
+        from: 'FindaPint <FindaPint@FindaPint.co.uk>',
         to: `${user.email}`,
         subject: 'Verify Email',
         html: `To verify email please follow this link 
-         href="http://localhost:8001/email/ver/${user._id}'>
+         href="https://project-3-adam.herokuapp.com/email/ver/${user._id}'>
         Click here to add your email address to a mailing list`
       }
       sgMail
