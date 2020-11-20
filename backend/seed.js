@@ -2,10 +2,11 @@ const mongoose = require('mongoose')
 const pubs = require('./models/pubs')
 const users = require('./models/users')
 const axios = require('axios')
+const { dbURI } = require('./config/environment')
 
 
 mongoose.connect(
-  'mongodb://localhost/pubsdb', {
+  dbURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
