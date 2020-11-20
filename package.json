@@ -8,6 +8,7 @@
     "seed": "node backend/seed.js",
     "frontend": "webpack-dev-server --mode=development --env.NODE_ENV=local",
     "build": "webpack -p --env.NODE_ENV=production",
+    "start": "node backend/server.js",
     "mongod": "mongod --dbpath ~/data/db"
   },
   "author": "",

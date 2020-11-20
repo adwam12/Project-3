@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route }  from 'react-router-dom'
 import bulma from 'bulma'
 
 
+
 import '../styles/style.scss'
 import 'react-slideshow-image/dist/styles.css'
 
