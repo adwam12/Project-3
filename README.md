@@ -466,7 +466,6 @@ The challenge of this feature comes from choosing which platform to send directi
 * Background image by [Patrick Fore on Unsplash](https://unsplash.com/@patrickian4)
 * Background image by [Will Stewart on Unsplash](https://unsplash.com/@wilstewart3)
 
-Screenshots
 
 ![](images/pic1)
 ![](images/pic2)
