@@ -28,17 +28,6 @@ With all the confusion surrounding the lockdown in England and what people were 
 ![](images/P3_WF_7.png)
 ![](images/P3_WF_8.png)
 
-Screenshots
-
-![](images/Screen Shot 2021-01-06 at 12.23.55 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.24.53 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.24.29 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.25.09 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.10.53 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.26.03 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.26.18 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.25.25 PM.png)
-![](images/Screen Shot 2021-01-06 at 12.33.02 PM.png)
 
  
 Challenges/victories
@@ -476,3 +465,14 @@ The challenge of this feature comes from choosing which platform to send directi
 * Background image by [Pradnyal Gandhi on Unsplash](https://unsplash.com/@pradnyal)
 * Background image by [Patrick Fore on Unsplash](https://unsplash.com/@patrickian4)
 * Background image by [Will Stewart on Unsplash](https://unsplash.com/@wilstewart3)
+
+Screenshots
+
+![](images/pic1)
+![](images/pic2)
+![](images/pic3)
+![](images/pic4)
+![](images/pic5)
+![](images/pic6)
+![](images/pic7)
+![](images/pic8)
