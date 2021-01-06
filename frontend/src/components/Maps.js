@@ -277,9 +277,7 @@ const DisplayMap = (props) => {
         />
 
         {filteredPubList.map((pub, index) => {
-
           return <Marker latitude={pub.coordinates.latitude} longitude={pub.coordinates.longitude} key={index} offsetLeft={-25} offsetTop={-25}>
-
             <div>
               <button className='marker-btn' onClick={(e) => {
                 e.preventDefault()
