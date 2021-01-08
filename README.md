@@ -1,4 +1,6 @@
 # Find-A-Pint
+Made by [Theo Booth](https://github.com/theorlbooth), [Lee Burgess](https://github.com/Budge23) and [Adam Lee Osgood](https://github.com/adwam12)
+
 ## Overview
 
 With all the confusion surrounding the lockdown in England and what people were or were not allowed to do. Our initial idea was to create a website focused on the Public House industry showing which places were open, which places had outdoor seating, where one could get take-away drinks from etc. This quickly developed into something that could be used both during this current confusion and post lockdown, so we tried to include as much information about the sites as possible. We also wanted to make it a more social website than just being able to look up places to drink. We not only wanted friends to be able to communicate and coordinate places to meet and have a drink but also for Pubs to be able to give out information/offers etc to their 'subscribers'. For this we implemented a friend requesting/adding system that works hand in hand with the map in order to give the best usability on finding a place. And a subscribing/emailing system for landlords to be able to communicate with their customers and keep them up to date with the lastest news/offers.
@@ -29,8 +31,6 @@ With all the confusion surrounding the lockdown in England and what people were 
 ![](images/P3_WF_8.png)
 
 
- 
-Challenges/victories
 ### The Map:
 
 Displaying an interactive map was simple using the mapbox library, but we wanted our map to be a little more complex to fit our user's needs. Our final vision for the map was a radius-based filtering system, one where you could select the location of a friend and have a venn diagram display all the pubs you share in a radius of x kilometers. Adding all the different map markers was as simple as fetching their location using our own API and a reverse geocoding library.
