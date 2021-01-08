@@ -5,6 +5,8 @@ Made by [Theo Booth](https://github.com/theorlbooth), [Lee Burgess](https://gith
 
 With all the confusion surrounding the lockdown in England and what people were or were not allowed to do. Our initial idea was to create a website focused on the Public House industry showing which places were open, which places had outdoor seating, where one could get take-away drinks from etc. This quickly developed into something that could be used both during this current confusion and post lockdown, so we tried to include as much information about the sites as possible. We also wanted to make it a more social website than just being able to look up places to drink. We not only wanted friends to be able to communicate and coordinate places to meet and have a drink but also for Pubs to be able to give out information/offers etc to their 'subscribers'. For this we implemented a friend requesting/adding system that works hand in hand with the map in order to give the best usability on finding a place. And a subscribing/emailing system for landlords to be able to communicate with their customers and keep them up to date with the lastest news/offers.
 
+Link: https://project-3-adam.herokuapp.com/
+
 ![](images/pic1.png)
 
 
@@ -418,6 +420,8 @@ return
 
 This function then takes the current pub and the entered information and passes it to the backend function through an axios post request. 
 
+![](images/pic3.png)
+
 
 ## Future Features
 ### Chat
@@ -447,6 +451,5 @@ The challenge of this feature comes from choosing which platform to send directi
 * Background image by [Will Stewart on Unsplash](https://unsplash.com/@wilstewart3)
 
 
-![](images/pic3.png)
 ![](images/pic6.png)
 ![](images/pic8.png)
